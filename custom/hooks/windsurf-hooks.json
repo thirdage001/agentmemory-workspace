@@ -1,0 +1,64 @@
+{
+  "hooks": {
+    "pre_user_prompt": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "pre_read_code": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "pre_write_code": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "pre_run_command": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "pre_mcp_tool_use": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "post_read_code": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "post_write_code": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "post_run_command": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "post_mcp_tool_use": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ],
+    "post_cascade_response": [
+      {
+        "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\"",
+        "powershell": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\cascade-bridge.mjs\""
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "mcpServers": {
+    "celigo": {
+      "url": "https://api.eu.integrator.io/celigo-mcp",
+      "transport": "http",
+      "headers": {
+        "Authorization": "Bearer <your-celigo-token>",
+        "Content-Type": "application/json"
+      }
+    },
+    "yotrioSB": {
+      "command": "node",
+      "args": ["<path-to-netsuite-mcp-yotrio>/node_modules/@suiteinsider/netsuite-mcp/src/index.js"],
+      "env": {
+        "NETSUITE_ACCOUNT_ID": "<your-netsuite-account-id>",
+        "NETSUITE_CLIENT_ID": "<your-netsuite-client-id>",
+        "OAUTH_CALLBACK_PORT": "8080"
+      }
+    },
+    "yepodaSB": {
+      "command": "node",
+      "args": ["<path-to-netsuite-mcp-yepoda>/node_modules/@suiteinsider/netsuite-mcp/src/index.js"],
+      "env": {
+        "NETSUITE_ACCOUNT_ID": "<your-netsuite-account-id>",
+        "NETSUITE_CLIENT_ID": "<your-netsuite-client-id>",
+        "OAUTH_CALLBACK_PORT": "8080"
+      }
+    },
+    "yepodaProd": {
+      "command": "node",
+      "args": ["<path-to-netsuite-mcp-yepoda>/node_modules/@suiteinsider/netsuite-mcp/src/index.js"],
+      "env": {
+        "NETSUITE_ACCOUNT_ID": "<your-netsuite-account-id>",
+        "NETSUITE_CLIENT_ID": "<your-netsuite-client-id>",
+        "OAUTH_CALLBACK_PORT": "8081"
+      }
+    },
+    "coolify": {
+      "command": "npx",
+      "args": ["-y", "coolify-mcp-server"],
+      "env": {
+        "COOLIFY_BASE_URL": "<your-coolify-url>",
+        "COOLIFY_TOKEN": "<your-coolify-token>"
+      }
+    },
+    "supabase": {
+      "url": "<your-supabase-mcp-url>",
+      "transport": "http",
+      "headers": {
+        "apikey": "<your-supabase-api-key>",
+        "Content-Type": "application/json"
+      }
+    },
+    "agentmemory": {
+      "command": "npx",
+      "args": ["-y", "@agentmemory/mcp@latest"],
+      "env": {
+        "AGENTMEMORY_URL": "https://agentmemory.kopps.net",
+        "AGENTMEMORY_SECRET": "<your-agentmemory-secret>",
+        "AGENTMEMORY_TOOLS": "all"
+      }
+    }
+  }
+}

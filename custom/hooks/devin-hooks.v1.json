@@ -1,0 +1,71 @@
+{
+  "SessionStart": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\session-start.mjs\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "UserPromptSubmit": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\prompt-submit.mjs\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "PreToolUse": [
+    {
+      "matcher": "^(exec|edit|write|read|apply_patch|grep|glob)$",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\pre-tool-use.mjs\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "PostToolUse": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\post-tool-use.mjs\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\stop.mjs\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "SessionEnd": [
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node \"C:\\Users\\anand\\.agentmemory\\scripts\\session-end.mjs\"",
+          "timeout": 10
+        }
+      ]
+    }
+  ]
+}

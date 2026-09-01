@@ -1,0 +1,8 @@
+# Local clone of thirdage001/agentmemory — kept for development,
+# not part of the deployment workspace repo.
+/repo/
+
+# Node / build artifacts
+node_modules/
+dist/
+*.log

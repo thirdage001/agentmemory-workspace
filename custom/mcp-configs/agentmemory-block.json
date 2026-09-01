@@ -1,0 +1,11 @@
+{
+  "agentmemory": {
+    "command": "npx",
+    "args": ["-y", "@agentmemory/mcp@latest"],
+    "env": {
+      "AGENTMEMORY_URL": "https://agentmemory.kopps.net",
+      "AGENTMEMORY_SECRET": "<your-agentmemory-secret>",
+      "AGENTMEMORY_TOOLS": "all"
+    }
+  }
+}
